@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<meta charset="utf-8">
+<Title>Wszystkiego Najlepszego</Title>
+<link rel="stylesheet" href="Styl4.css">
+    </head>
+
+    <script>
+        function playMusic(){
+  var music = new Audio('videoplayback.mp3');
+  music.play();
+  }
+    </script>
+    <script type="module">
+        import confetti from 'https://cdn.skypack.dev/canvas-confetti';
+        confetti();
+      </script>
+      
+<H1 class="nazwa">KLIKNIJ</H1>
+<img src="arrow.png" class="arrow">
+<input type="button" value="" class="przycisk1" onclick="playMusic()" onclick="confetti()">
+</body>    

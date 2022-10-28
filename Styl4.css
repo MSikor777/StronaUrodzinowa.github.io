@@ -1,0 +1,41 @@
+body{
+ background-color: #efefef;
+}
+.nazwa
+{
+    text-align: center;
+    color: black;
+    font-size: 150px;
+    border: none;
+    background: transparent;
+    overflow: hidden;
+
+}
+.nazwa2
+{
+    text-align: center;
+    font-size: medium;
+    font-size: 50px;
+}
+.przycisk1
+{
+    background-image: url("gift.png");
+    background-size: 900px 900px;
+    width: 900px;
+    height: 900px;
+    border: none;
+    cursor: pointer;
+    border-radius: 56px;
+    position: fixed;
+    overflow: hidden;
+    top: 45%;
+    left: 30px;
+}
+
+.arrow
+{
+    position: fixed;
+    left: 30%;
+    text-align: center;
+
+}
